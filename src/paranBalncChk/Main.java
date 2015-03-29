@@ -11,7 +11,7 @@ public class Main
         Scanner in = new Scanner(System.in);
         s = in.nextLine();
 
-        ParanthesisBalance x = new ParanthesisBalance(s);
+        ParenthesisBalance x = new ParenthesisBalance(s);
 
         boolean b = x.isBalanced() ? true : false;
 
